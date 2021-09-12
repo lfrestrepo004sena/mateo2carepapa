@@ -1,0 +1,115 @@
+#cont-principal
+{background-color: aqua;
+ width: 700px;
+ height: 700px;
+ margin:0 auto;
+ text-align: center;
+ margin-top: 100px;   
+}
+
+#cont-principal .cuerpo
+{padding-top: 180px;
+    position: relative;
+    z-index: 0;
+
+}
+#cont-principal .cuerpo .sombrero
+{
+    position: absolute;
+    top: 18%;
+    left: 32%;
+    transition: .5s;
+    transform:rotate(-4Sdeg)
+
+}
+#cont-principal .cuerpo .oreja
+{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    z-index: -2;
+
+}
+#cont-principal .cuerpo .oreja2
+{
+    position: absolute;
+    top: 40%;
+    right:25%;
+    z-index: -2;
+}
+#cont-principal .cuerpo .zapizq
+{
+    position: absolute;
+    bottom: -3%;
+    left: 28%;
+    z-index: -2;
+    transition: .5s;
+    scale: 80%;
+}
+
+#cont-principal .cuerpo .zapder
+{
+    position: absolute;
+    bottom: -3%;
+    right:28%;
+    z-index: 1;
+    transition: .5s;
+    transform: rotate(-10deg);
+}
+#cont-principal .cuerpo .ojoizq
+{
+    position: absolute;
+    top: 46%;
+    left:38%;
+    z-index: 1;
+    transition: .5s;
+}
+#cont-principal .cuerpo .ojoder
+{
+    position: absolute;
+    top: 46%;
+    right:38%;
+    z-index: 1;
+    transition: .5s;
+}
+#cont-principal .cuerpo .bigote
+{
+    position: absolute;
+    bottom: 8%;
+    right:37%;
+    z-index: 1;
+}
+#cont-principal .cuerpo .nariz
+{
+    position: absolute;
+    bottom: 17%;
+    right:40%;
+    z-index: 2;
+}
+
+#cont-principal .cuerpo:hover .zapizq
+{
+    transform: scale(125%) rotate(10deg);
+    
+    z-index: 1;
+}
+#cont-principal .cuerpo:hover .zapder
+{
+    transform: scale(80%) ;
+    
+    z-index: -2;
+}
+#cont-principal .cuerpo:hover .sombrero
+{
+    transform: translateY(7px);
+    
+}
+#cont-principal .cuerpo:hover .ojoizq
+{
+    transform: scaleY(5%)
+    
+}
+#cont-principal .cuerpo:hover .ojoder
+{
+    transform: scaleY(5%)
+}
